@@ -1,0 +1,138 @@
+/*INDEX*/
+.bienvenida {
+    text-align: center;
+    font-size: 20px;
+    font-family: poppins;
+    font-style: cursive;
+    font-weight: bold;
+  
+}
+
+
+/*CLASES*/
+
+
+.msj {
+    width: 500px;
+    height: 200px;
+}
+
+
+
+
+.texto-clases p {
+    text-decoration: none;
+    font-family: poppins;
+    font-size: 20px;
+}
+
+.texto-modalidad{
+    text-decoration: none;
+    font-family: poppins;
+    font-size: 20px;
+    display: grid;
+    justify-content: center;
+
+}
+
+.contenido-clase {
+   height: max-content;    
+    color: white;
+    background-color: rgba(56, 52, 52, 0.863);
+    border: 2px solid black;
+    font-size: medium;
+    font-family: poppins;
+    display: none;
+}
+
+
+/*SERVICIOS*/
+.servicio-texto {
+    text-decoration: none;
+    font-family: poppins;
+    font-size: 20px;
+
+}
+
+
+.servicio-home {
+    text-align: center;
+    font-size: 20px;
+    font-family: poppins;
+    font-style: cursive;
+    font-weight: bold;
+    margin: 50px;
+    margin-top: 10%;
+}
+
+.homestudio-texto {
+    text-decoration: none;
+    font-family: poppins;
+    text-align: center;
+    height: 200px;
+    font-size: 20px;
+}
+
+/*INFO*/
+
+.texto {
+    text-decoration: none;
+    font-family: poppins;
+    font-size: 20px;
+}
+
+.texto-info{
+    text-decoration: none;
+    font-family: poppins;
+    font-size: 20px;
+
+}
+
+.texto-escuela{
+    text-decoration: none;
+    font-family: poppins;
+    font-size: 20px;
+}
+.texto-exp {
+    text-decoration: none;
+    font-family: poppins;
+    font-size: 20px;
+
+}
+.texto-escuela{
+   width: 50%;
+}
+
+h2 .escuela {
+    font-size: large;
+    font-family: poppins;
+    font-weight: bold;
+}
+
+
+
+.cv {
+    text-align: center;
+}
+
+.whatsapp,
+.cv {
+    font-family: poppins;
+    font-size: 25px;
+}
+
+/*GENERAL*/
+
+footer {
+    text-decoration: none;
+    font-family: poppins;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+
+span {
+    font-weight: bold;
+}
+

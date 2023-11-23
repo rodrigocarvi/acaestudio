@@ -1,0 +1,393 @@
+footer p:hover {
+  color: rgba(56, 52, 52, 0.863);
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+  cursor: pointer;
+}
+
+/*SERVICIOS*/
+.btn-servicios:hover,
+.btn-contacto:hover {
+  background-color: beige;
+  color: black;
+  -webkit-transition: color 2s;
+  transition: color 2s;
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+  cursor: pointer;
+}
+
+/*CLASES*/
+.clase-logo:hover,
+.pdf:hover,
+.wp:hover {
+  cursor: pointer;
+}
+
+.title-clases:hover ~ .contenido-clase {
+  display: grid;
+}
+
+@media screen and (max-width: 576px) {
+  body {
+    font-size: 14px;
+  }
+  .header {
+    padding: 15px;
+  }
+  .menu ul li {
+    margin-right: 10px;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .header {
+    padding: 15px;
+  }
+  .menu ul li {
+    margin-right: 10px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .header {
+    padding: 10px;
+  }
+  .menu ul li {
+    margin-right: 5px;
+  }
+}
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  .sidebar {
+    width: 300px;
+  }
+  .footer {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 1201px) {
+  .sidebar {
+    width: 400px;
+  }
+  .footer {
+    font-size: 20px;
+  }
+}
+.pdf {
+  width: 10%;
+  height: 50%;
+  margin-left: 45%;
+}
+
+.wp {
+  width: 10%;
+  height: 20%;
+}
+
+.escuelalogo {
+  height: 100px;
+  width: 100px;
+}
+
+.logo {
+  width: 50px;
+  height: 40px;
+}
+
+.clase-logo {
+  width: 50px;
+  height: 50px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.foto-cv {
+  width: 20%;
+  height: 20%;
+  margin: 50px;
+}
+
+.image-main, .image-hover {
+  width: 50%;
+}
+
+.image-container {
+  position: relative;
+}
+
+.image-container .image-hover {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  -o-object-fit: contain;
+     object-fit: contain;
+  opacity: 0;
+  -webkit-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+}
+
+.image-container:hover .image-hover {
+  opacity: 1;
+}
+
+.image-hove {
+  display: none;
+}
+
+.image-container:hover .image-main .image-hover {
+  display: block;
+}
+
+.image-main:hover {
+  opacity: 0;
+}
+
+/*INDEX*/
+.bienvenida {
+  text-align: center;
+  font-size: 20px;
+  font-family: poppins;
+  font-style: cursive;
+  font-weight: bold;
+}
+
+/*CLASES*/
+.msj {
+  width: 500px;
+  height: 200px;
+}
+
+.texto-clases p {
+  text-decoration: none;
+  font-family: poppins;
+  font-size: 20px;
+}
+
+.texto-modalidad {
+  text-decoration: none;
+  font-family: poppins;
+  font-size: 20px;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contenido-clase {
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  color: white;
+  background-color: rgba(56, 52, 52, 0.863);
+  border: 2px solid black;
+  font-size: medium;
+  font-family: poppins;
+  display: none;
+}
+
+/*SERVICIOS*/
+.servicio-texto {
+  text-decoration: none;
+  font-family: poppins;
+  font-size: 20px;
+}
+
+.servicio-home {
+  text-align: center;
+  font-size: 20px;
+  font-family: poppins;
+  font-style: cursive;
+  font-weight: bold;
+  margin: 50px;
+  margin-top: 10%;
+}
+
+.homestudio-texto {
+  text-decoration: none;
+  font-family: poppins;
+  text-align: center;
+  height: 200px;
+  font-size: 20px;
+}
+
+/*INFO*/
+.texto {
+  text-decoration: none;
+  font-family: poppins;
+  font-size: 20px;
+}
+
+.texto-info {
+  text-decoration: none;
+  font-family: poppins;
+  font-size: 20px;
+}
+
+.texto-escuela {
+  text-decoration: none;
+  font-family: poppins;
+  font-size: 20px;
+}
+
+.texto-exp {
+  text-decoration: none;
+  font-family: poppins;
+  font-size: 20px;
+}
+
+.texto-escuela {
+  width: 50%;
+}
+
+h2 .escuela {
+  font-size: large;
+  font-family: poppins;
+  font-weight: bold;
+}
+
+.cv {
+  text-align: center;
+}
+
+.whatsapp,
+.cv {
+  font-family: poppins;
+  font-size: 25px;
+}
+
+/*GENERAL*/
+footer {
+  text-decoration: none;
+  font-family: poppins;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+span {
+  font-weight: bold;
+}
+
+/*Servicios*/
+.titulos {
+  font-size: 48px;
+  font-family: poppins;
+  font-weight: bold;
+  font-style: cursive;
+}
+
+/*CLASES*/
+.titulo-clases {
+  font-size: 28px;
+  font-family: poppins;
+  font-style: cursive;
+  font-weight: bold;
+}
+
+.title-clase {
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.soft {
+  width: 500px;
+}
+
+/*SERVICIOS*/
+.inicio.servicios {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.btn-servicios,
+.btn-contacto {
+  font-family: poppins;
+  font-size: large;
+  background-color: black;
+  border: none;
+  text-align: center;
+  color: #ffffff;
+  margin: 10px;
+  padding: 10px;
+  width: 30%;
+}
+
+.homestudio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 10px;
+}
+
+.estudios {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.clases {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 100px 200px;
+  grid-gap: 10px;
+  margin-bottom: 200px;
+}
+
+.formulario-contenedor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-decoration: none;
+  font-family: poppins;
+  font-size: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+}

@@ -1,0 +1,77 @@
+@import '_variables.scss';
+@import '_animacion.scss';
+@import '_breakpoints.scss';
+@import '_iconos.scss';
+@import '_images.scss';
+@import '_mixins.scss';
+@import '_texto.scss';
+@import '_titulos.scss';
+
+
+/*SERVICIOS*/
+
+.inicio.servicios{
+    display: flex;
+    
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+
+      
+
+}
+.btn-servicios,
+.btn-contacto {
+    
+    font-family: poppins;
+    font-size: large;
+    background-color: black;   
+    border: none;
+    text-align:center;
+    color: #ffffff;  
+    margin:10px;
+    padding:10px;
+    width: 30%; 
+
+}
+
+
+
+.homestudio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.estudios{
+    display: flex;
+    flex-direction: column;
+}
+
+.clases{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 200px;
+    grid-gap: 10px;
+    margin-bottom: 200px;
+}
+.formulario-contenedor{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    font-family: poppins;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+       
+    padding :10px;
+    margin: 10px;
+}

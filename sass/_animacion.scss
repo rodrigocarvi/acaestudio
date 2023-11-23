@@ -1,0 +1,32 @@
+footer p:hover {
+    color: rgba(56, 52, 52, 0.863);
+    transition: color 0.3s;
+    cursor: pointer;
+}
+
+/*SERVICIOS*/
+
+
+.btn-servicios:hover,
+.btn-contacto:hover {
+    background-color: beige;
+    color: black;
+    transition: color 2s;
+    transition: background-color 0.5s;
+    cursor: pointer;
+}
+
+
+/*CLASES*/
+
+
+.clase-logo:hover,
+.pdf:hover,
+.wp:hover {
+    cursor: pointer;
+
+}
+
+.title-clases:hover~.contenido-clase{
+   display: grid;
+}

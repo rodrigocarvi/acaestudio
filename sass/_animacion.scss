@@ -1,7 +1,16 @@
-footer p:hover {
-    color: rgba(56, 52, 52, 0.863);
+footer p:hover{
+    color: black;
     transition: color 0.3s;
     cursor: pointer;
+}
+
+.whatsapp:hover,
+.cv:hover,
+.notebook:hover{
+  color: rgb(122, 111, 111);
+  transition: color 0.5s;
+  cursor: pointer;
+  
 }
 
 /*SERVICIOS*/
@@ -20,7 +29,7 @@ footer p:hover {
 /*CLASES*/
 
 
-.clase-logo:hover,
+.clases:hover,
 .pdf:hover,
 .wp:hover {
     cursor: pointer;
@@ -30,3 +39,24 @@ footer p:hover {
 .title-clases:hover~.contenido-clase{
    display: grid;
 }
+.servicio-texto{
+    display:none;
+}
+
+.image-hover{
+    display: none;
+}
+  .menu-left:hover~.container-right .image-main{
+    display: none;
+  }
+  .menu-left:hover~.container-right .image-hover{
+    display: flex;
+  }
+  .menu-left:hover~.container-right .servicio-texto{
+    display: flex;
+  }
+
+  .clases:hover~.contenido-clases{
+    display: flex;
+    flex-direction: column;   
+  }

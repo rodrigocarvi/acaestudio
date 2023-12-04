@@ -14,13 +14,7 @@
     display: flex;
     
 }
-.menu{
-    display: flex;
-    flex-direction: column;
 
-      
-
-}
 .btn-servicios,
 .btn-contacto {
     
@@ -30,19 +24,15 @@
     border: none;
     text-align:center;
     color: #ffffff;  
-    margin:10px;
     padding:10px;
-    width: 30%; 
+    width: 70%; 
+    margin:20px 10px 0px 50px;
 
 }
 
 
 
-.homestudio {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 .info{
     display: flex;
     flex-direction: row;
@@ -57,10 +47,11 @@
 
 .clases{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 100px 200px;
-    grid-gap: 10px;
-    margin-bottom: 200px;
+    grid-template-columns:1fr;
+    width:50%;
+    margin-left: 20px;
+    
+
 }
 .formulario-contenedor{
     display: flex;
@@ -71,7 +62,40 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-       
-    padding :10px;
-    margin: 10px;
+
+}
+
+footer{
+   background-color:#2B3035; 
+   color:white; 
+   text-decoration: none;
+   font-family: poppins;
+   font-size: 20px;
+}
+
+
+.columns-container{
+    display: flex;
+}
+
+.menu-left{
+    display: flex;
+    flex-direction: column;
+    flex: 1;     
+
+}
+
+.container-right{
+    flex:2;
+}
+
+
+.container-programas{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.notebook{
+    display: flex;
+    justify-content: center;
 }

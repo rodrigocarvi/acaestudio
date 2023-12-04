@@ -4,42 +4,20 @@
     margin: 50px;
 }
 
-.image-main,.image-hover{
-    width: 50%;
+.image-main, .image-hover{
+  width: 50%;
 }
 
-.image-container {
-    position: relative;
 
-  }
-  .image-container .image-hover {
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    object-fit: contain;
-    opacity: 0;
-    transition: opacity .2s;
-  }
-  .image-container:hover .image-hover {
-    opacity: 1;
-  }
+.imagenes-estudio-right{ 
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
 
-  .image-hove{
-    display: none;
-  }
-  
-  
-  
-  .image-container:hover .image-main .image-hover {
-    display: block;
-  }
-  
-  
-  
-  .image-main:hover {
-    opacity: 0;
-  }
-  
+.img-estudio{
+  margin:10px;
+  border: 2px solid #495057;
+}
